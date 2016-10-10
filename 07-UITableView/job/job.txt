@@ -1,0 +1,3 @@
+
+熟练IOS开发技术，包括UI、网络等。
+熟悉http、XMPP、TCP/IP等网络协议。

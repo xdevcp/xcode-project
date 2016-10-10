@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7869C67A1907FBEC0003F77D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7869C6791907FBEC0003F77D /* Foundation.framework */; };
+		7869C67C1907FBEC0003F77D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7869C67B1907FBEC0003F77D /* CoreGraphics.framework */; };
+		7869C67E1907FBEC0003F77D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7869C67D1907FBEC0003F77D /* UIKit.framework */; };
+		7869C6841907FBEC0003F77D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7869C6821907FBEC0003F77D /* InfoPlist.strings */; };
+		7869C6861907FBEC0003F77D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869C6851907FBEC0003F77D /* main.m */; };
+		7869C68A1907FBEC0003F77D /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869C6891907FBEC0003F77D /* CPAppDelegate.m */; };
+		7869C68D1907FBEC0003F77D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7869C68B1907FBEC0003F77D /* Main.storyboard */; };
+		7869C6901907FBEC0003F77D /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869C68F1907FBEC0003F77D /* CPViewController.m */; };
+		7869C6921907FBEC0003F77D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7869C6911907FBEC0003F77D /* Images.xcassets */; };
+		7869C6991907FBEC0003F77D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7869C6981907FBEC0003F77D /* XCTest.framework */; };
+		7869C69A1907FBEC0003F77D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7869C6791907FBEC0003F77D /* Foundation.framework */; };
+		7869C69B1907FBEC0003F77D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7869C67D1907FBEC0003F77D /* UIKit.framework */; };
+		7869C6A31907FBEC0003F77D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7869C6A11907FBEC0003F77D /* InfoPlist.strings */; };
+		7869C6A51907FBEC0003F77D /* _2_codeAllocButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869C6A41907FBEC0003F77D /* _2_codeAllocButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7869C69C1907FBEC0003F77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7869C66E1907FBEC0003F77D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7869C6751907FBEC0003F77D;
+			remoteInfo = "02-codeAllocButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7869C6761907FBEC0003F77D /* 02-codeAllocButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-codeAllocButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7869C6791907FBEC0003F77D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7869C67B1907FBEC0003F77D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7869C67D1907FBEC0003F77D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7869C6811907FBEC0003F77D /* 02-codeAllocButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02-codeAllocButton-Info.plist"; sourceTree = "<group>"; };
+		7869C6831907FBEC0003F77D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7869C6851907FBEC0003F77D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7869C6871907FBEC0003F77D /* 02-codeAllocButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "02-codeAllocButton-Prefix.pch"; sourceTree = "<group>"; };
+		7869C6881907FBEC0003F77D /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
+		7869C6891907FBEC0003F77D /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
+		7869C68C1907FBEC0003F77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7869C68E1907FBEC0003F77D /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
+		7869C68F1907FBEC0003F77D /* CPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
+		7869C6911907FBEC0003F77D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7869C6971907FBEC0003F77D /* 02-codeAllocButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-codeAllocButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7869C6981907FBEC0003F77D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7869C6A01907FBEC0003F77D /* 02-codeAllocButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02-codeAllocButtonTests-Info.plist"; sourceTree = "<group>"; };
+		7869C6A21907FBEC0003F77D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7869C6A41907FBEC0003F77D /* _2_codeAllocButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_codeAllocButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7869C6731907FBEC0003F77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7869C67C1907FBEC0003F77D /* CoreGraphics.framework in Frameworks */,
+				7869C67E1907FBEC0003F77D /* UIKit.framework in Frameworks */,
+				7869C67A1907FBEC0003F77D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7869C6941907FBEC0003F77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7869C6991907FBEC0003F77D /* XCTest.framework in Frameworks */,
+				7869C69B1907FBEC0003F77D /* UIKit.framework in Frameworks */,
+				7869C69A1907FBEC0003F77D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7869C66D1907FBEC0003F77D = {
+			isa = PBXGroup;
+			children = (
+				7869C67F1907FBEC0003F77D /* 02-codeAllocButton */,
+				7869C69E1907FBEC0003F77D /* 02-codeAllocButtonTests */,
+				7869C6781907FBEC0003F77D /* Frameworks */,
+				7869C6771907FBEC0003F77D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7869C6771907FBEC0003F77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7869C6761907FBEC0003F77D /* 02-codeAllocButton.app */,
+				7869C6971907FBEC0003F77D /* 02-codeAllocButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7869C6781907FBEC0003F77D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7869C6791907FBEC0003F77D /* Foundation.framework */,
+				7869C67B1907FBEC0003F77D /* CoreGraphics.framework */,
+				7869C67D1907FBEC0003F77D /* UIKit.framework */,
+				7869C6981907FBEC0003F77D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7869C67F1907FBEC0003F77D /* 02-codeAllocButton */ = {
+			isa = PBXGroup;
+			children = (
+				7869C6881907FBEC0003F77D /* CPAppDelegate.h */,
+				7869C6891907FBEC0003F77D /* CPAppDelegate.m */,
+				7869C68B1907FBEC0003F77D /* Main.storyboard */,
+				7869C68E1907FBEC0003F77D /* CPViewController.h */,
+				7869C68F1907FBEC0003F77D /* CPViewController.m */,
+				7869C6911907FBEC0003F77D /* Images.xcassets */,
+				7869C6801907FBEC0003F77D /* Supporting Files */,
+			);
+			path = "02-codeAllocButton";
+			sourceTree = "<group>";
+		};
+		7869C6801907FBEC0003F77D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7869C6811907FBEC0003F77D /* 02-codeAllocButton-Info.plist */,
+				7869C6821907FBEC0003F77D /* InfoPlist.strings */,
+				7869C6851907FBEC0003F77D /* main.m */,
+				7869C6871907FBEC0003F77D /* 02-codeAllocButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7869C69E1907FBEC0003F77D /* 02-codeAllocButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7869C6A41907FBEC0003F77D /* _2_codeAllocButtonTests.m */,
+				7869C69F1907FBEC0003F77D /* Supporting Files */,
+			);
+			path = "02-codeAllocButtonTests";
+			sourceTree = "<group>";
+		};
+		7869C69F1907FBEC0003F77D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7869C6A01907FBEC0003F77D /* 02-codeAllocButtonTests-Info.plist */,
+				7869C6A11907FBEC0003F77D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7869C6751907FBEC0003F77D /* 02-codeAllocButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7869C6A81907FBEC0003F77D /* Build configuration list for PBXNativeTarget "02-codeAllocButton" */;
+			buildPhases = (
+				7869C6721907FBEC0003F77D /* Sources */,
+				7869C6731907FBEC0003F77D /* Frameworks */,
+				7869C6741907FBEC0003F77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-codeAllocButton";
+			productName = "02-codeAllocButton";
+			productReference = 7869C6761907FBEC0003F77D /* 02-codeAllocButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7869C6961907FBEC0003F77D /* 02-codeAllocButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7869C6AB1907FBEC0003F77D /* Build configuration list for PBXNativeTarget "02-codeAllocButtonTests" */;
+			buildPhases = (
+				7869C6931907FBEC0003F77D /* Sources */,
+				7869C6941907FBEC0003F77D /* Frameworks */,
+				7869C6951907FBEC0003F77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7869C69D1907FBEC0003F77D /* PBXTargetDependency */,
+			);
+			name = "02-codeAllocButtonTests";
+			productName = "02-codeAllocButtonTests";
+			productReference = 7869C6971907FBEC0003F77D /* 02-codeAllocButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7869C66E1907FBEC0003F77D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = pan;
+				TargetAttributes = {
+					7869C6961907FBEC0003F77D = {
+						TestTargetID = 7869C6751907FBEC0003F77D;
+					};
+				};
+			};
+			buildConfigurationList = 7869C6711907FBEC0003F77D /* Build configuration list for PBXProject "02-codeAllocButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7869C66D1907FBEC0003F77D;
+			productRefGroup = 7869C6771907FBEC0003F77D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7869C6751907FBEC0003F77D /* 02-codeAllocButton */,
+				7869C6961907FBEC0003F77D /* 02-codeAllocButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7869C6741907FBEC0003F77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7869C6921907FBEC0003F77D /* Images.xcassets in Resources */,
+				7869C6841907FBEC0003F77D /* InfoPlist.strings in Resources */,
+				7869C68D1907FBEC0003F77D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7869C6951907FBEC0003F77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7869C6A31907FBEC0003F77D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7869C6721907FBEC0003F77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7869C6861907FBEC0003F77D /* main.m in Sources */,
+				7869C68A1907FBEC0003F77D /* CPAppDelegate.m in Sources */,
+				7869C6901907FBEC0003F77D /* CPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7869C6931907FBEC0003F77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7869C6A51907FBEC0003F77D /* _2_codeAllocButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7869C69D1907FBEC0003F77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7869C6751907FBEC0003F77D /* 02-codeAllocButton */;
+			targetProxy = 7869C69C1907FBEC0003F77D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7869C6821907FBEC0003F77D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7869C6831907FBEC0003F77D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7869C68B1907FBEC0003F77D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7869C68C1907FBEC0003F77D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7869C6A11907FBEC0003F77D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7869C6A21907FBEC0003F77D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7869C6A61907FBEC0003F77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7869C6A71907FBEC0003F77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7869C6A91907FBEC0003F77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-codeAllocButton/02-codeAllocButton-Prefix.pch";
+				INFOPLIST_FILE = "02-codeAllocButton/02-codeAllocButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7869C6AA1907FBEC0003F77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-codeAllocButton/02-codeAllocButton-Prefix.pch";
+				INFOPLIST_FILE = "02-codeAllocButton/02-codeAllocButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7869C6AC1907FBEC0003F77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02-codeAllocButton.app/02-codeAllocButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-codeAllocButton/02-codeAllocButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-codeAllocButtonTests/02-codeAllocButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7869C6AD1907FBEC0003F77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02-codeAllocButton.app/02-codeAllocButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-codeAllocButton/02-codeAllocButton-Prefix.pch";
+				INFOPLIST_FILE = "02-codeAllocButtonTests/02-codeAllocButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7869C6711907FBEC0003F77D /* Build configuration list for PBXProject "02-codeAllocButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7869C6A61907FBEC0003F77D /* Debug */,
+				7869C6A71907FBEC0003F77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7869C6A81907FBEC0003F77D /* Build configuration list for PBXNativeTarget "02-codeAllocButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7869C6A91907FBEC0003F77D /* Debug */,
+				7869C6AA1907FBEC0003F77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7869C6AB1907FBEC0003F77D /* Build configuration list for PBXNativeTarget "02-codeAllocButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7869C6AC1907FBEC0003F77D /* Debug */,
+				7869C6AD1907FBEC0003F77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7869C66E1907FBEC0003F77D /* Project object */;
+}
